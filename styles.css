@@ -1,3 +1,8 @@
+body{
+    text-align: center;
+    /* background-color: #000000; */
+    /* color: aliceblue; */
+}
 .grid-container {
     margin: 20px;
     display: grid;
@@ -16,4 +21,42 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.main_table{
+    border: 1px solid #000000;
+    margin: 0 auto;
+    padding: 3px;
+}
+
+table{
+    border: 2px solid #000000;
+}
+tr ,th,td{
+    border: 2px solid #000000;
+}
+.span_last{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+th{
+    line-height: 0px;
+}
+ul li{
+    text-align: center;
+}
+table{
+    margin:42px 0;
+}
+
+.td_style{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+.nested_table2_heading{
+    font-size: 28px;
+    margin: 11px;
+    text-align: center;
+    font-weight: 900;
 }
