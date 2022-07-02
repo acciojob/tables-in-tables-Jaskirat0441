@@ -5,20 +5,20 @@ body{
     font-weight: 800;
     font-size: 24px;
 }
-.grid-container {
+/*.grid-container {
     margin: 20px;
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
 }
 .grid-item {
-    /* background-color: rgba(255, 255, 255, 0.5); */
+    /* background-color: rgba(255, 255, 255, 0.5); 
     background-color: transparent;
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
-}
+}*/
 .flex-box{
     display: flex;
     align-items: center;
@@ -31,7 +31,12 @@ body{
     width: 85vw;
     height: 95vh;
 }
-
+h2{
+    font-size: 24px;
+}
+.td_width{
+    width: 50%;
+}
 table{
     border: 2px solid #000000;
 }
@@ -48,6 +53,7 @@ th{
 }
 ul li{
     text-align: center;
+    font-weight: 400;
 }
 table{
     margin:42px 0;
@@ -57,6 +63,9 @@ table{
     font-size: 30px;
     text-align: center;
     font-weight: 600;
+}
+.td_text{
+    font-weight: 400;
 }
 .nested_table2_heading{
     font-size: 28px;
